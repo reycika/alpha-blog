@@ -64,6 +64,31 @@ ul.navbar-nav a:hover {
   border-color: orange;
 }
 
+.btn-primary {
+  background-color: #89cff0;
+  border-color: #89cff0;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: orange;
+  border-color: orange;
+}
+
+.btn-primary:active {
+  background-color: orange;
+  border-color: orange;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
