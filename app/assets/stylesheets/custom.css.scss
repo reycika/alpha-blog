@@ -1,2 +1,89 @@
+$navbar-default-bg: #89cff0;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: #89cff0;
+}
+
+ul.navbar-nav a:hover {
+  color: orange;
+}
+
+.btn-primary {
+  background-color: #89cff0;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('2ndPlace.jpg');
+  background-size: cover;
+  height: 750px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: #89cff0;
+  border-color: #89cff0;
+}
+
+.btn-xlarge:hover {
+  background-color: orange;
+  border-color: orange;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #89cff0;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
